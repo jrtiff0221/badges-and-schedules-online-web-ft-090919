@@ -95,7 +95,7 @@ TEXT
     # To make this test pass, make sure you are iterating through your badges and room assignments lists.
 
     it 'should puts the list of badges and room_assignments' do
-      badges_and_room_assignments.each_line do |line|
+      badges_and_room_assi     gnments.each_line do |line|
         # $stdout is a Ruby global varibale that represents the current standard output.
         # In this case, the standard output is your terminal screen. This test, then,
         # is checking to see whether or not your terminal screen receives the correct
