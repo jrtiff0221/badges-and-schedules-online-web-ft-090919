@@ -18,5 +18,3 @@ def printer(names)
   batch_badge_creator(names).each_with_index { |badge, index| puts badge rooms[index] }
  
 end
-
-printer
