@@ -21,5 +21,3 @@ def printer(names)
     puts rooms[index]
   end
 end
-
-printer(["bob", "lob"])
