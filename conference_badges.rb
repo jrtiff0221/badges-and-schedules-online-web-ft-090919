@@ -19,4 +19,4 @@ def printer(names)
  
 end
 
-printer(["bob", "larry"])
+printer
