@@ -13,3 +13,5 @@ def assign_rooms(names)
   return room_assignments
 end
 def printer
+   return room 
+  ends
