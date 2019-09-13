@@ -14,16 +14,11 @@ def assign_rooms(names)
 end
 
 def printer(names)
-  badges_and_rooms = []
-  
-  # batch_badge_creator(names).each_with_index { |badge, index| badges_and_rooms << "" }
-  
-  batch_badge_creator(names).each { |badge| puts badge }
   rooms = assign_rooms(names)
   
-   batch_badge_creator(names).each_with_index do |badge, index|
+  batch_badge_creator(names).each_with_index do |badge, index|
     puts badge
-    puts 
+    puts rooms[index]
   end
 end
 
